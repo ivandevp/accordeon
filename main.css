@@ -5677,7 +5677,8 @@ h2{
   margin: 20px auto 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-device-width: 579px), only screen and (device-width: 300px), only screen and (width: 300px) and (orientation: landscape), only screen and (device-width: 300px), only screen and (max-width: 300px) {
+
   .contenedor {
     margin: 35px 0 10px;
   }
@@ -5704,9 +5705,14 @@ h2{
   img{
     width: 50%;
   }
+  .list-group {
+    font-size: 12px;
+    width: 100% !important;
+    margin: 0 auto 25px;
+  }  
 }
 
-@media only screen and (max-device-width: 800px), only screen and (device-width: 481px), only screen and (width: 481px) and (orientation: landscape), only screen and (device-width: 481px), only screen and (max-width: 479px) {
+@media only screen and (max-device-width: 800px), only screen and (device-width: 580px), only screen and (width: 580px) and (orientation: landscape), only screen and (device-width: 580px), only screen and (max-width: 580px) {
   img{ 
     width: 35% !important;
   }
