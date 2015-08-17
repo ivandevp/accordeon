@@ -2782,8 +2782,8 @@ tbody.collapse.in {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5638,361 +5638,89 @@ body {
   line-height: 1.3;
   color: #2c3e50; }
 
-.arrow {
-  z-index: 4;
-  bottom: 27%; }
-  .arrow a {
-    color: #FFFFFF;
-    font-size: 40px; }
-  .arrow a:hover .glyphicon {
-    padding-top: 10px;
-    color: #1abc9c; }
-  @media screen and (max-width: 480px) {
-    .arrow {
-      margin-top: 18%; } }
-
-.separador {
-  border-top: 1px solid white;
-  border-top-color: rgba(255, 255, 255, 0.35);
-  height: 1px;
-  margin: 2% auto; }
-
-h1 {
-  font-size: 70px;
-  color: white; }
-  @media screen and (max-width: 480px) {
-    h1 {
-      font-size: 42px; } }
-
-h2 {
-  font-size: 40px;
-  color: #34495e;
-  font-weight: bold;
-  margin-bottom: 3%; }
-  @media screen and (max-width: 480px) {
-    h2 {
-      font-size: 30px;
-      margin: 10%; } }
-
-h3 {
-  font-size: 30px;
-  color: #ecf0f1;
-  font-weight: bold; }
-  @media screen and (max-width: 480px) {
-    h3 {
-      font-size: 19px; } }
-
-.text-center {
-  text-align: center; }
-
-.text-right {
-  text-align: right; }
-
-.text-left {
-  text-align: left; }
-
-.text-justify {
-  text-align: justify; }
-
-.text-white {
-  color: white; }
-
-.text-gray {
-  color: #34495e; }
-
-.bg-white {
-  background-color: white; }
-
-.btn-default {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 0;
-  color: #ecf0f1;
-  margin: 7%; }
-  @media screen and (max-width: 480px) {
-    .btn-default {
-      font-size: 13px;
-      margin-top: 20%; } }
-
-.btn:hover {
-  background-color: #c0392b;
-  color: white; }
-
-.relative {
-  position: relative; }
-
-.absolute {
-  position: absolute; }
-
-#principal {
-  width: 100%;
-  height: 100%;
-  padding: 3% 12%;
-  background-image: url("../assets/images/fondo2.jpg");
-  background-size: cover;
-  margin: 0 auto;
-  font-size: 20px; }
-  #principal .titulo {
-    color: white;
-    margin-top: 6%; }
-    #principal .titulo img {
-      width: 10%; }
-    #principal .titulo .separador-width {
-      width: 50%; }
-
-.nav.past-main {
-  background-color: transparent;
-  border-color: transparent;
-  float: right; }
-  .nav.past-main img {
-    width: 0; }
-
-#menu nav.navbar.navbar-default {
-  background-color: #e74c3c;
-  border-color: #e74c3c;
-  border-radius: 0;
-  margin-bottom: 0px; }
-  #menu nav.navbar.navbar-default a {
-    color: white; }
-  #menu nav.navbar.navbar-default .navbar-toggle {
-    border-color: transparent; }
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ecf0f1; }
-
-#menu .container-fluid {
-  padding: 0 5%; }
-#menu nav.navbar.navbar-default {
-  margin-bottom: 0; }
-  #menu nav.navbar.navbar-default li:hover {
-    background-color: #ecf0f1; }
-    #menu nav.navbar.navbar-default li:hover a {
-      color: #e67e22; }
-#menu .navbar-brand {
-  padding: 2% !important; }
-#menu .logo-navbar {
-  width: 120px;
-  margin-top: -3px; }
-  @media screen and (max-width: 480px) {
-    #menu .logo-navbar {
-      margin-top: -8px; } }
-  #menu .logo-navbar img {
-    width: 45%; }
-
-#sobre-mi {
-  padding: 6% 3% 8%; }
-  #sobre-mi .parrafo {
-    font-size: 17px;
-    line-height: 1.5em;
-    padding: 14% 4% 5%;
-    font-weight: 300;
-    letter-spacing: 0.03em; }
-    #sobre-mi .parrafo .firma {
-      font-family: 'Euphoria Script', cursive !important;
-      font-size: 23px;
-      padding-right: 4%; }
-
-#mensaje {
-  background-image: url("../assets/images/fondo-mensaje.jpg");
-  background-attachment: fixed;
-  background-size: cover; }
-  #mensaje .contenido-mensaje {
-    padding: 4%; }
-    #mensaje .contenido-mensaje h3 {
-      color: white;
-      padding: 7% auto; }
-
-#proyectos {
-  padding: 6% 5% 6%;
-  background-color: white; }
-  #proyectos h3 {
-    padding-bottom: 2%; }
-  #proyectos p {
-    margin: 3%; }
-
-a.left.carousel-control,
-a.right.carousel-control {
-  background-image: none; }
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  line-height: 1;
-  width: 100%;
-  height: 100%; }
-  @media screen and (max-width: 480px) {
-    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-      height: auto; } }
-
-#mensaje2 {
-  background-image: url("../assets/images/fondo-mensaje2.jpg");
-  background-attachment: fixed;
-  background-size: cover; }
-  #mensaje2 .contenido-mensaje h3 {
-    color: white;
-    padding: 7% auto; }
-  #mensaje2 .contenido-mensaje .btn-default {
-    margin: 6% 4% !important; }
-
-#contacto {
-  padding: 6% 5%; }
-  #contacto .recuadro {
-    border: 1px solid #2980b9;
-    border-radius: 5%;
-    margin: 3% 8%;
-    padding: 6% 4%; }
-  #contacto .col-consulta {
-    padding: 2% 0 !important; }
-  #contacto .form-responsive {
-    margin-left: 2% !important;
-    margin-right: 2% !important; }
-  #contacto .style-input {
-    font-size: 15px !important;
-    height: 30px !important;
-    width: 92%;
-    border: 1px solid #2980b9;
-    outline: none;
-    padding: 2%;
-    color: #34495e; }
-  #contacto textarea {
-    font-size: 15px !important;
-    width: 92%;
-    resize: none;
-    border: 1px solid #2980b9;
-    outline: none;
-    padding: 2%;
-    color: #34495e; }
-  #contacto .btn-default {
-    background-color: #2980b9 !important;
-    margin: 6% 0 0;
-    padding: 2% 8%; }
-  #contacto .parrafo {
-    margin-top: 10%; }
-    #contacto .parrafo p {
-      font-size: 15px !important;
-      font-weight: 300 !important; }
-    #contacto .parrafo img {
-      width: 10%; }
-
-#piepagina {
-  height: 40px;
-  width: 100%;
-  background-color: #2c3e50;
-  color: white; }
-  @media screen and (max-width: 480px) {
-    #piepagina {
-      top: 550%; } }
-  #piepagina .autor {
-    position: relative;
-    left: 38%;
-    top: 28%;
-    font-size: 15px; }
-    @media screen and (max-width: 480px) {
-      #piepagina .autor {
-        font-size: 10px;
-        left: 20%; } }
+a.list-group-item:focus, a.list-group-item:hover {
+  color: #fff !important;
+  background-color: #521266 !important;
+  border: 1px solid #521266 !important;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  background-color: #521266 !important;
+  border-color: #521266 !important;
+}
+.bg-banner{
+  background-color: #521266;
+  padding: 20px 0 !important;
+}
+.row{
+  margin: 0 !important;
+}
+.contenedor{
+  margin: 55px 0 25px;
+  min-height: 62%;
+}
+.footer{
+  text-align: center;
+  background-color: #521266;
+  color: #fff;
+  padding: 14px 0 7px !important;
+}
+h6{
+  font-size: 12px !important;
+}
+h2{
+  color: #521266 !important;
+  text-align: center;
+}
+.separador{
+  border-bottom: 1px dotted #945C9A;
+  width: 80%;
+  margin: 20px auto 30px;
+}
 
 @media screen and (max-width: 480px) {
-  #principal {
-    font-size: 16px;
-    height: 100%; } }
-@media screen and (max-width: 480px) {
-  #principal .titulo {
-    margin-top: 30%; } }
-@media screen and (max-width: 480px) {
-  #principal .titulo img {
-    width: 50%; } }
-@media screen and (max-width: 480px) {
-  #principal .titulo .separador-width {
-    width: 80%; } }
-@media screen and (max-width: 480px) {
-  #principal .titulo h1 {
-    margin-top: 15%; } }
+  .contenedor {
+    margin: 35px 0 10px;
+  }
+  .col-md-7{
+    padding: 0 !important;
+  }
+  h2{
+    font-size: 19px !important;
+    margin: 0 !important;
+  }
+  .list-group-item{
+    font-size: 12px !important;
+  }
+  h6{
+    font-size: 12px !important;
+  }
+  p{
+    font-size: 12px !important;
+    margin: 5px !important;
+  }
+  .separador{
+    margin: 15px auto !important;
+  }
+  img{
+    width: 50%;
+  }
+}
 
-@media screen and (max-width: 480px) {
-  #sobre-mi img {
-    width: 85%; } }
-@media screen and (max-width: 480px) {
-  #sobre-mi p {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.2em;
-    margin: 0; } }
-@media screen and (max-width: 480px) {
-  #sobre-mi .firma {
-    text-align: center; } }
-@media screen and (max-width: 480px) {
-  #sobre-mi .parrafo {
-    padding: 12% 2% 5%; } }
-
-@media screen and (max-width: 480px) {
-  #mensaje .contenido-mensaje {
-    margin: 6% 7%; } }
-@media screen and (max-width: 480px) {
-  #mensaje h3 {
-    line-height: 1.3em; } }
-@media screen and (max-width: 480px) {
-  #mensaje img {
-    width: 20%;
-    margin: 4%; } }
-
-@media screen and (max-width: 480px) {
-  #proyectos {
-    margin: 8% 0 10%; } }
-
-@media screen and (max-width: 480px) {
-  #mensaje2 .contenido-mensaje {
-    padding: 9%; } }
-@media screen and (max-width: 480px) {
-  #mensaje2 h3 {
-    line-height: 1.5em; } }
-@media screen and (max-width: 480px) {
-  #mensaje2 img {
-    width: 19%; } }
-@media screen and (max-width: 480px) {
-  #mensaje2 .btn-default {
-    margin: 9% 6% 0 !important; } }
-
-@media screen and (max-width: 480px) {
-  #contacto form {
-    margin: 3% 0 !important; } }
-@media screen and (max-width: 480px) {
-  #contacto .parrafo p {
-    font-size: 14px !important; } }
-
-#principal-proyecto {
-  background-image: url("../assets/images/fondo4.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 50%; }
-  @media screen and (max-width: 480px) {
-    #principal-proyecto {
-      background-image: url("../assets/images/fondo4Celular.jpg");
-      margin-top: 12%;
-      height: 40%; } }
-  #principal-proyecto .titulo {
-    color: white;
-    padding: auto; }
-    #principal-proyecto .titulo h3 {
-      font-size: 45px !important;
-      padding-top: 9%; }
-      @media screen and (max-width: 480px) {
-        #principal-proyecto .titulo h3 {
-          font-size: 20px;
-          padding-top: 12%; } }
-
-#proyectos-todos {
-  padding: 5% 2% 3%; }
-  @media screen and (max-width: 480px) {
-    #proyectos-todos {
-      padding: 13% 1% 5%; } }
-  #proyectos-todos h6 {
-    font-size: 15px; }
-    @media screen and (max-width: 480px) {
-      #proyectos-todos h6 {
-        font-size: 10px; } }
-  #proyectos-todos .proyecto img {
-    width: 100%;
-    border: 1px solid #bdc3c7; }
-
-/*# sourceMappingURL=main.css.map */
+@media only screen and (max-device-width: 800px), only screen and (device-width: 481px), only screen and (width: 481px) and (orientation: landscape), only screen and (device-width: 481px), only screen and (max-width: 479px) {
+  img{ 
+    width: 35% !important;
+  }
+  h2 {
+    font-size: 25px !important;
+    margin: 0 !important;
+  }
+  .list-group {
+    font-size: 12px;
+    width: 60%;
+    margin: 0 auto 25px;
+  }
+  p{
+    margin: 5px 10px !important;
+    font-size: 13px !important;
+  }
+}
